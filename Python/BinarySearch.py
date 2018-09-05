@@ -1,7 +1,7 @@
 from random import randint
 
 min = 1
-max = 100000000
+max = 1000
 lowerBound = min
 higherBound = max
 
@@ -27,4 +27,4 @@ def binarySearch(guess):
         print("This took " + str(count) + " tries.")
 
 
-binarySearch(round(max / 2))
+binarySearch(round((max-min) / 2))
